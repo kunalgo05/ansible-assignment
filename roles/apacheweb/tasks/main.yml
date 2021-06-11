@@ -1,0 +1,6 @@
+---
+# tasks file for apacheweb
+  - include: install.yml
+  - include: config.yml
+  - include: service.yml
+  - include: java.yml

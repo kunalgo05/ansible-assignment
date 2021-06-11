@@ -1,0 +1,5 @@
+---
+# tasks file for nginxweb
+  - include: install.yml
+  - include: config.yml
+  - include: service.yml
